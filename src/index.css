@@ -144,6 +144,11 @@ strong {
   font-size: 12px;
   margin-bottom: 6px;
   display: block;
+  color: #000;
+}
+
+span {
+  color: #000;
 }
 
 .nav {
@@ -244,4 +249,26 @@ strong {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.active {
+  font-weight: bold;
+}
+
+.active-option {
+  /* background-color: #2ecc71; */
+}
+
+.active-option:before { 
+  content: 'You voted for this one: ';
+  color: #16a085;
+  font-size: 12px;
+}
+
+.percentage {
+  font-size: 14px;
+  border-top: 1px dashed;
+  border-bottom: 1px dashed;
+  padding: 7px 0;
+  margin: 8px 0;
 }

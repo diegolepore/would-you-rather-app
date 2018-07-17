@@ -4,10 +4,9 @@ let users = {
       name: 'Sarah Edo',
       avatarURL: "img/sara.png",
       answers: {
-        "8xf0y6ziyjabvozdd253nd": 'optionOne',
         "6ni6ok3ym7mf1p33lnez": 'optionOne',
         "am8ehyc8byjqgar0jgpub9": 'optionTwo',
-        "loxhs1bqm25b708cmbf3g": 'optionTwo'
+        "loxhs1bqm25b708cmbf3g": 'optionTwo',
       },
       questions: ['8xf0y6ziyjabvozdd253nd', 'am8ehyc8byjqgar0jgpub9']
     },
@@ -40,7 +39,7 @@ let questions = {
     author: 'sarahedo',
     timestamp: 1467166872634,
     optionOne: {
-      votes: ['sarahedo'],
+      votes: [],
       text: 'have horrible short term memory',
     },
     optionTwo: {

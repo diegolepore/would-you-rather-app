@@ -20,7 +20,7 @@ class QuestionPage extends Component {
                     <h1>Would you rather...?</h1>
 
                     <div className='question-item' key={id}>
-                        <Question id={id} isQuestion={true} />
+                            <Question id={id} isQuestion={true} />
                     </div>
                 </div>
             </Row>
@@ -35,6 +35,7 @@ function mapStateToProps ({questions, users, authedUser}, props) {
         id,
         test: props.match.params,
         authedUser,
+        
     }
 }
   
